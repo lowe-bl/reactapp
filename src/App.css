@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+body, h1, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color:hsl(257, 40%, 49%);;
+  background-image: url(./pics/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header img {
+  padding: 35px 0 0 80px;
+  width: 15%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  
+  
+  
+}
+
+main img {
+  width: 50%;
+  padding: 55px 0 30px 80px;
+}
+
+main, h1, p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+main button {
+  background-color: white;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 5px 5px 0 rgba(50, 9, 75, 0.331);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content h1 {
+  font-size: 1.8rem;
+  /* line-height: 1.2; */
+  font-weight: 700;
+
 }
+h1 {
+  padding: 135px 150px 0px 35px;
+}
+.content p {
+  font-size: 1rem;
+  opacity: .8;
+  font-family: 'Open sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+P {
+  padding: 40px 90px 0 35px;
+}
+
+.content {
+  margin: 100px 30px;
+ 
+}
+
+button {
+  margin: 35px 90px 30px 35px;
+}
+
+button:hover{
+  background-color:hsl(300, 69%, 71%);
+  color: white;
+  cursor: pointer;
+}
+
+footer  .fab{
+  float: right;
+  border: .1rem solid white;
+  border-radius: 50%;
+  padding: .5em;
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+  color: white;
+ font-size: 20px;
+}
+
+
+footer  .fab:hover{
+  border-color:hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+
+}
+
+.links {
+  padding-right: 90px;
+  margin: 0 15px;
+}
+
